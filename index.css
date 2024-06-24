@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  position: -webkit-sticky;
+  cursor: pointer;
+  padding: 3px;
+  position: sticky;
+}
+.nav-list {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.nav-list li {
+  list-style: none;
+  background-color: black;
+  font-size: medium;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+}
+.nav-list li a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 35px;
+  font-family: Arial, sans-serif;
+}
+.buttons {
+  padding-right: 370px;
+}
+.right-nav {
+  background-color: black;
+  text-align: right;
+  width: 50%;
+  padding-top: 9px;
+  font-size: medium;
+  padding-right: 5px;
+}
+
+div.right-nav input[type="text"] {
+  font-size: small;
+  color: black;
+  border: 2px solid azure;
+  border-radius: 2px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.search {
+  padding: 7px;
+  border: beige;
+  border-radius: 7px;
+  font-size: 25px;
+  padding-right: 7px;
+}
+.background {
+  background: rgba(0, 0, 0, 0.7) url("img.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.backgroundtag {
+  background: rgba(0, 0, 0, 0.7) url("secRightbg.jpg");
+  background-size: cover;
+  width: 1000px;
+  padding-left: 350px;
+  padding-right: 0;
+  height: 500px;
+  margin-bottom: 0;
+}
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: auto;
+  max-width: 50%;
+  height: 80%;
+}
+.firstsection {
+  height: 100vh;
+}
+.firstHalf {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 150px;
+  padding-left: 5px;
+  padding-top: 70px;
+  text-align: justify;
+}
+.secondHalf {
+  padding: 10px 10px;
+  width: 250px;
+  height: 350px;
+  position: absolute;
+  top: -20px;
+  left: 1200px;
+  max-width: 400px;
+  margin-top: 205px;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.text-big {
+  font-size: 37px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-right: 197px;
+  font-style: italic;
+}
+.text-small {
+  font-size: 15px;
+  padding-left: 16px;
+  line-height: 1.5;
+}
+.text-bottom {
+  color: whitesmoke;
+}
+.buttons {
+  margin-right: 27px;
+}
+.btn {
+  padding: 7px 20px;
+  margin: 7px 3px;
+  background-color: whitesmoke;
+  color: black;
+  border: 2px solid;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.label {
+  font-weight: bolder;
+}
+.text-bold {
+  color: black;
+  font-size: larger;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  font-size: 25px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-label {
+  font-size: larger;
+  font-weight: bold;
+}
+.form-text {
+  font-size: 15px;
+  font-style: italic;
+}
+.mob-text {
+  font-style: italic;
+  font-size: 13px;
+}
+.btnns {
+  width: 70px;
+  height: 25px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+.logo img {
+  border: 2px;
+  border-radius: 80px;
+  padding: 5px;
+  width: 35px;
+}
+.btn .btn-sm {
+  padding-bottom: 5px;
+}
+.text-center {
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-center {
+  color: black;
+  display: flex;
+  justify-content: center;
+  justify-content: last baseline;
+  align-items: center;
+  align-items: end;
+  align-items: self-end;
+  padding-right: 99px;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+div.secondHalf input[type="text"] {
+  font-weight: 500;
+  padding-left: 50px;
+  height: 15px;
+  width: 235px;
+  cursor: pointer;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+div.secondHalf label {
+  font-weight: 700;
+  padding-left: 5px;
+  margin-bottom: 7px;
+}
+div.secondHalf input[type="submit"] {
+  width: 50px;
+  background-color: black;
+  color: white;
+  border: solid;
+  border-radius: 7px;
+  font-size: small;
+  width: 90px;
+  font-family: Arial, sans-serif;
+  margin-top: 9px;
+  margin-bottom: 5px;
+  height: 32px;
+  cursor: pointer;
+}
+.footer {
+  background-color: white;
+  color: black;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+.footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer .column {
+  flex: 1;
+  margin: 20px;
+}
+.footer h3 {
+  border-bottom: 2px solid #555;
+  padding-bottom: 10px;
+}
+.footer p {
+  padding-top: 10px;
+}
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer ul li {
+  margin: 10px 0;
+}
+.footer ul li a {
+  color: black;
+  text-decoration: none;
+}
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+.footer .social-icons a {
+  margin: 0 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+.footer .social-icons a:hover {
+  color: #ddd;
+}
+.footer .bottom {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #555;
+  margin-top: 20px;
+}
